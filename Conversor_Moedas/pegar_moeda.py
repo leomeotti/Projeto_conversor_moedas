@@ -8,7 +8,7 @@ def nomes_moedas():
     return moedas
 
 
-def conversoes_disponoveis():
+def conversoes_disponiveis():
     with open("c:/Users/Leo meotti/Desktop/Codigos Python/Conversor_Moedas/conversoes.xml", "rb") as arquivo_conversoes:
         dic_conversoes = xmltodict.parse(arquivo_conversoes)
 
